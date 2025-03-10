@@ -1,0 +1,4 @@
+mcp[cli]>=1.2.0
+httpx>=0.24.0
+replicate>=0.20.0
+python-dotenv>=1.0.0
