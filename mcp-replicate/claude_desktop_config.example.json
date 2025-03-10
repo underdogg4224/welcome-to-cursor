@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "replicate": {
+      "command": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/c",
+        "python",
+        "C:\\Users\\[YourUsername]\\welcome-to-cursor\\mcp-replicate\\replicate_server.py"
+      ],
+      "timeout": 60000
+    }
+  }
+}
