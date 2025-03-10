@@ -1,0 +1,39 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "C:\\Windows\\System32\\cmd.exe",
+            "args": [
+                "/c",
+                "npx",
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "C:\\Users\\[YourUsername]\\Desktop",
+                "C:\\Users\\[YourUsername]\\Downloads"
+            ],
+            "timeout": 30000
+        },
+        "database": {
+            "command": "C:\\Windows\\System32\\cmd.exe",
+            "args": [
+                "/c",
+                "python",
+                "C:\\Users\\[YourUsername]\\Projects\\mcp_server.py"
+            ],
+            "timeout": 30000
+        },
+        "custom": {
+            "command": "C:\\Windows\\System32\\cmd.exe",
+            "args": [
+                "/c",
+                "node",
+                "C:\\Users\\[YourUsername]\\Projects\\custom_mcp_server.js"
+            ],
+            "timeout": 30000
+        }
+    },
+    "settings": {
+        "logLevel": "debug",
+        "retryAttempts": 3,
+        "retryDelay": 1000
+    }
+}
